@@ -12,7 +12,7 @@ export class VideoPlayer extends Component {
 
   componentDidMount() {
     loadAll([
-      'https://bitmovin-a.akamaihd.net/bitmovin-player/stable/7.6.2/bitmovinplayer.js',
+      'https://bitmovin-a.akamaihd.net/bitmovin-player/stable/7.7.3/bitmovinplayer.js',
       '//bitmovin-a.akamaihd.net/bitmovin-player/stable/7/bitmovinplayer-ui.js',
     ], this.initPlayer);
   }
